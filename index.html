@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Event Ticketing Community</title>
+        <link rel="stylesheet" href="assets/style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+
+        <div id="container"> <!-- Container starts -->
+            
+            <div class="header__background_layer1">
+                <div class="header__background_layer2">
+        
+                <nav class="navigation">
+                    <div class="navigation__logo">
+                        <a href="index.html" title="Homepage">
+                            <img src="./assets/images/logo.svg" alt="logo-image"/>
+                        </a>
+                    </div>
+
+                    <div class="navigation__menu">
+                        <ul class="navigation__list">
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="index.html">Schedule</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="index.html">Speakers</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="index.html">Ticket</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="index.html">Contact</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link link-bordered" href="index.html">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                    
+
+                <header class="header"> <!-- Header starts -->
+
+                    <div class="header__flexbox">
+                        
+                        <div class="header__icon icon-left"> <!-- Slide arrows -->
+                            <a href="#"><img src="./assets/images/icon-back.png" alt="previous"/></a>
+                        </div>
+
+                        <div class="header__flexbox__image">
+                            <img src="./assets/images/header-background-small.svg" alt="">
+                        </div>
+                        <div class="header__flexbox__title">
+                            <h1 class="header__title">SBS MTV The Kpop Show Ticket  Package</h1>
+                            <p class="header__paragraph">Look no further! Our SBS The Show tickets are the simplest way for you to experience a live Kpop recording.</p>
+                            <div class="header__buttons">
+                                <a class="button button-colored" href="#">Get Ticket</a>
+                                <a class="button" href="#">Learn More</a>
+                            </div>
+                        </div>
+
+                        <div class="header__icon icon-right"> <!-- Slide arrows -->
+                            <a href="#"><img src="./assets/images/icon-forward.png" alt="next"/></a>
+                        </div>
+
+                    </div>
+
+                </header> <!-- Header ends -->
+                </div>
+            </div>
+
+            <main class="main"> <!-- Main starts -->
+
+                <aside class="search"> <!-- Section "search" starts -->
+
+                    <form action="search.php" class="search__form">
+                        <div class="search__column">
+                            <label for="search-event" class="search__label">Search Event</label>
+                            <input type="text" class="search__input" id="search-event" placeholder="Konser Jazz">
+                        </div>
+                        <div class="search__column">
+                            <label for="place" class="search__label">Place</label>
+                            <input type="text" class="search__input" id="place" placeholder="Indonesia">
+                        </div>
+                        <div class="search__column">
+                            <label for="time" class="search__label">Time</label>
+                            <select class="search__input date" id="time" placeholder="Any Date">
+                                <option>Any date</option>
+                                <option>Yesterday</option>
+                                <option>Today</option>
+                                <option>Tomorrow</option>
+                            </select>
+                        </div>
+                        <div class="search__submit">
+                            <input type="submit" value="Search">
+                        </div>
+                    </form>
+                    
+                </aside>  <!-- Section "search" ends -->
+
+                <div class="main__header">
+                    <h2 class="main__title">Upcoming Events</h2>
+                    <div class="main__select_flexbox">
+                        <div class="main__select_box">
+                            <select class="main__select" name="weekdays" id="weekdays">
+                                <option class="main__option" value="Weekdays">Weekdays</option>
+                                <option class="main__option" value="Monday">Monday</option>
+                                <option class="main__option" value="Tuesday">Tuesday</option>
+                                <option class="main__option" value="Wednesday">Wednesday</option>
+                                <option class="main__option" value="Thursday">Thursday</option>
+                                <option class="main__option" value="Friday">Friday</option>
+                                <option class="main__option" value="Saturday">Saturday</option>
+                                <option class="main__option" value="Sunday">Sunday</option>
+                            </select>
+                        </div>
+                        <div class="main__select_box">
+                            <select class="main__select" name="event type" id="event type">
+                                <option class="main__option" value="Event Type">Event Type</option>
+                                <option class="main__option" value="Party">Party</option>
+                                <option class="main__option" value="Weekend">Weekend</option>
+                                <option class="main__option" value="Wedding">Wedding</option>
+                            </select>
+                        </div>
+                        <div class="main__select_box">
+                            <select class="main__select" name="category" id="category">
+                                <option class="main__option" value="Any Category">Any Category</option>
+                                <option class="main__option" value="Opened Category">Opened Category</option>
+                                <option class="main__option" value="Closed Category">Closed Category</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__content">
+                    <div class="main__flexitem">
+                        <div class="main__imagebox">
+                            <a href="#"><img class="main__image" src="./assets/images/main-image-1.svg" alt="Image"/></a>
+                            <div class="main__description">
+                                <div class="main__date">
+                                    <span class="main__month">APR</span>
+                                    <span class="main__day">14</span>
+                                </div>
+                                <div class="main__text">
+                                    <h3 class="main__text__title">Wonder Girls 2010 Wonder Girls World Tour San Francisco</h3>
+                                    <p class="main__text__paragraph">We’ll get you directly seated and inside for you to enjoy the show.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__flexitem">
+                        <div class="main__imagebox">
+                            <a href="#"><img class="main__image" src="./assets/images/main-image-2.svg" alt="Image"/></a>
+                            <div class="main__description">
+                                <div class="main__date">
+                                    <span class="main__month">AUG</span>
+                                    <span class="main__day">20</span>
+                                </div>
+                                <div class="main__text">
+                                    <h3 class="main__text__title">JYJ 2011 JYJ Worldwide Concert Barcelona</h3>
+                                    <p class="main__text__paragraph">Directly seated and inside for you to enjoy the show.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__flexitem">
+                        <div class="main__imagebox">
+                            <a href="#"><img class="main__image" src="./assets/images/main-image-3.svg" alt="Image"/></a>
+                            <div class="main__description">
+                                <div class="main__date">
+                                    <span class="main__month">MAR</span>
+                                    <span class="main__day">05</span>
+                                </div>
+                                <div class="main__text">
+                                    <h3 class="main__text__title">2011 Super Junior SM Town Live '10 World Tour New York City</h3>
+                                    <p class="main__text__paragraph">Directly seated and inside for you to enjoy the show.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__flexitem">
+                        <div class="main__imagebox">
+                            <a href="#"><img class="main__image" src="./assets/images/main-image-4.svg" alt="Image"/></a>
+                            <div class="main__description">
+                                <div class="main__date">
+                                    <span class="main__month">JUN</span>
+                                    <span class="main__day">17</span>
+                                </div>
+                                <div class="main__text">
+                                    <h3 class="main__text__title">Wonder Girls 2010 Wonder Girls World Tour San Francisco</h3>
+                                    <p class="main__text__paragraph">We’ll get you directly seated and inside for you to enjoy the show.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__flexitem">
+                        <div class="main__imagebox">
+                            <a href="#"><img class="main__image" src="./assets/images/main-image-5.svg" alt="Image"/></a>
+                            <div class="main__description">
+                                <div class="main__date">
+                                    <span class="main__month">DEC</span>
+                                    <span class="main__day">28</span>
+                                </div>
+                                <div class="main__text">
+                                    <h3 class="main__text__title">JYJ 2011 JYJ Worldwide Concert Barcelona</h3>
+                                    <p class="main__text__paragraph">Directly seated and inside for you to enjoy the show.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__flexitem">
+                        <div class="main__imagebox">
+                            <a href="#"><img class="main__image" src="./assets/images/main-image-6.svg" alt="Image"/></a>
+                            <div class="main__description">
+                                <div class="main__date">
+                                    <span class="main__month">SEP</span>
+                                    <span class="main__day">12</span>
+                                </div>
+                                <div class="main__text">
+                                    <h3 class="main__text__title">2011 Super Junior SM Town Live '10 World Tour New York City</h3>
+                                    <p class="main__text__paragraph">Directly seated and inside for you to enjoy the show.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="button button-blue button-block" href="#">Load More</a>
+                </div>
+
+            </main> <!-- Main ends -->
+
+            <section class="spread"> <!-- Section "spread" starts -->
+                <div class="spread__flexbox">
+                    <div class="spread__image_block">
+                        <img src="./assets/images/section-background.svg" alt="Background"/>
+                    </div>
+                    <div class="spread__title_block">
+                        <h2 class="spread__title">Make your own Event</h2>
+                        <p class="spread__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a class="button button-colored button-wide" href="#">Create Events</a>
+                    </div>
+                </div>
+            </section>  <!-- Section "spread" ends -->
+
+            <section class="brand"> <!-- Section "brands" starts -->
+                <div class="brand__flexbox">
+                    <h2 class="brand__title">Join these brands</h2>
+                    <p class="brand__paragraph">We've had the pleasure of working with industry-defining brands. These are just some of them.</p>
+                    <div class="brand__image__block">
+                        <div class="brand__image"><img src="./assets/images/icon-spotify.png" alt="Spotify"/></div>
+                        <div class="brand__image"><img src="./assets/images/icon-google.png" alt="Google"/></div>
+                        <div class="brand__image"><img src="./assets/images/icon-stripe.png" alt="Stripe"/></div>
+                        <div class="brand__image"><img src="./assets/images/icon-youtube.png" alt="Youtube"/></div>                     
+                        <div class="brand__image"><img src="./assets/images/icon-microsoft.png" alt="Microsoft"/></div>                      
+                        <div class="brand__image"><img src="./assets/images/icon-medium.png" alt="Medium"/></div>                      
+                        <div class="brand__image"><img src="./assets/images/icon-zoom.png" alt="Zoom"/></div>                     
+                        <div class="brand__image"><img src="./assets/images/icon-uber.png" alt="Uber"/></div>                      
+                        <div class="brand__image"><img src="./assets/images/icon-grab.png" alt="Grab"/></div>                 
+                    </div>
+                </div>
+            </section> <!-- Section "brands" ends -->
+
+            <section class="blog">  <!-- Section "blog" starts -->
+                <div class="blog__flexbox">
+                    <h2 class="blog__title">Blog</h2>
+                    <p class="blog__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="blog__image__block">
+                        <div class="blog__box">
+                            <div class="blog__imagebox">
+                                <a href="#"><img class="blog__image" src="./assets/images/section-image-1.svg" alt="Image"/></a>
+                            </div>
+                            <h3 class="blog__sub_title">6 Strategies to Find Your Conference Keynote and Other Speakers</h3>
+                            <p class="blog__sub_paragraph">Sekarang, kamu bisa produksi tiket fisik untuk eventmu bersama Bostiketbos. Hanya perlu mengikuti beberapa langkah mudah.</p>
+                            <p class="blog__sub_ending">12 Mar - John Doe</p>
+                        </div>
+                        <div class="blog__box">
+                            <div class="blog__imagebox">
+                                <a href="#"><img class="blog__image" src="./assets/images/section-image-2.svg" alt="Image"/></a>
+                            </div>
+                            <h3 class="blog__sub_title">How Successfully Used Paid Marketing to Drive Incremental Ticket Sales3</h3>
+                            <p class="blog__sub_paragraph">Sekarang, kamu bisa produksi tiket fisik untuk eventmu bersama Bostiketbos. Hanya perlu mengikuti beberapa langkah mudah.</p>
+                            <p class="blog__sub_ending">12 Mar - John Doe</p>
+                        </div>
+                        <div class="blog__box">
+                            <div class="blog__imagebox">
+                                <a href="#"><img class="blog__image" src="./assets/images/section-image-3.svg" alt="Image"/></a>
+                            </div>
+                            <h3 class="blog__sub_title">Introducing Workspaces: Work smarter, not harder with new navigation</h3>
+                            <p class="blog__sub_paragraph">Sekarang, kamu bisa produksi tiket fisik untuk eventmu bersama Bostiketbos. Hanya perlu mengikuti beberapa langkah mudah.</p>
+                            <p class="blog__sub_ending">12 Mar - John Doe</p>
+                        </div>
+                    </div>
+                    <a class="button button-blue button-block" href="#">Load More</a>
+                </div>
+            </section> <!-- Section "blog" ends -->
+
+
+            <footer class="footer"> <!-- Footer starts -->
+                <div class="footer__flexbox">
+                    <div class="footer__box">
+                        <div class="footer__logo">
+                            <a href="index.html" title="Homepage">
+                                <img src="./assets/images/logo.svg" alt="logo-image"/>
+                            </a>
+                        </div>
+                        <p class="footer__paragraph">Eventick is a global self-service ticketing platform for live experiences that allows anyone to create, share, find and attend events that fuel their passions and enrich their lives.</p>
+                        <div class="footer__icons">
+                            <a href="#"><img src="./assets/images/favicon-facebook.png" alt="facebook"/></a>
+                            <a href="#"><img src="./assets/images/favicon-twitter.png" alt="twitter"/></a>
+                            <a href="#"><img src="./assets/images/favicon-linkedin.png" alt="linkedin"/></a>
+                        </div>
+                    </div>
+                    <div class="footer__box">
+                        <h4 class="footer__title">Plan Events</h4>
+                        <a href="#" class="footer__link">Create and Set up</a>
+                        <a href="#" class="footer__link">Sell Tickets</a>
+                        <a href="#" class="footer__link">Online RSVP</a>
+                        <a href="#" class="footer__link">Online Events</a>
+                    </div>
+                    <div class="footer__box">
+                        <h4 class="footer__title">Eventick</h4>
+                        <a href="#" class="footer__link">About Us</a>
+                        <a href="#" class="footer__link">Press</a>
+                        <a href="#" class="footer__link">Contacts Us</a>
+                        <a href="#" class="footer__link">Help Center</a>     
+                        <a href="#" class="footer__link">How it Works</a>
+                        <a href="#" class="footer__link">Privacy</a>
+                        <a href="#" class="footer__link">Terms</a>                 
+                    </div>
+                    <div class="footer__box other-box">
+                        <h4 class="footer__title">Stay In The Loop</h4>
+                        <p class="footer__paragraph">Join our mailing list to stay in the loop with our newest for Event and concert</p>
+                        <div class="footer__button_box">
+                            <div class="footer__button_inner_box">
+                                <input class="footer__input" placeholder="Enter your mailing address">
+                            </div>
+                            <div class="footer__button_inner_box">
+                                <a href="#" class="footer__button button button-colored">Subscribe now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <p>Copyright &copy; 2022 Avi Yansah</p>
+                </div>
+            </footer> <!-- Footer ends -->
+
+
+        </div> <!-- Container ends -->
+
+    </body>
+    
+</html>
